@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS bitfit_db;
+CREATE DATABASE bitfit_db;
