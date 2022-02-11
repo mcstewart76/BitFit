@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS fitbit_db;
+CREATE DATABASE fitbit_db;
