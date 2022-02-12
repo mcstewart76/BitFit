@@ -7,7 +7,7 @@ const signUpFormHandler = async (event) => {
   const email = document.querySelector('#email-signup').value.trim();
   const password = document.querySelector('#password-signup').value.trim();
 
-  if (email && password) {
+  if (name && email && password) {
     // Send the e-mail and password to the server
     const response = await fetch('/api/users/signup', {
       method: 'POST',
@@ -18,11 +18,10 @@ const signUpFormHandler = async (event) => {
     if (response.ok) {
       document.location.replace('/');
     } else {
-      alert('Failed to log in');
+      alert('Failed to sign up.');
     }
   }
 };
 
-document
-  .querySelector('.signup-form')
-  .addEventListener('submit', signUpFormHandler);
+document.querySelector('#signupbtn').addEventListener('click', signUpFormHandler);
+
