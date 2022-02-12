@@ -21,15 +21,55 @@
       border-bottom-right-radius: .3rem;
     }
   }
-.navbar{
-    background-color: #26224f;
+
+#title{
+color: white;
+text-align: center;
+padding-bottom: 50px;
+}
+#box{
+padding-bottom: 50px;
 }
 
 #carousel{
   margin: auto;
-  width: 50%;
+  width: 80%;
+  height:400px;
   border-radius: 25%;
-  box-shadow: 5px 10px #ff1818;
+  background-color: #26224f;
+  box-shadow: 
+  0 0 15px 5px #7636dd,
+  0 0 30px 10px #5045b4,
+  0 0 44px 20px #432e69;
   padding: 10px;
 }
 
+#dailydrops{
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  height:250px;
+  background-image: linear-gradient(to right top, #7d071d, #852416, #8b390d, #8d4d04, #8d6000, #935a06, #98540f, #9d4e17, #9b2c32, #86144b, #5e195e, #1a2265);
+}
+
+#topoftop{
+  background-color: #15132e;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#topnfts{
+  text-align: center;
+  padding: 10px;
+}
+
+#tpnftstitle{
+  color: white;
+  padding: 10px;
+}
+
+.row{
+  padding: 10px;
+}
