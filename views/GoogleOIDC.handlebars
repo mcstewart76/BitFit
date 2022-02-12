@@ -1,0 +1,48 @@
+<!doctype html>
+<title>TITLE</title>
+
+<!-- this loads google libraries -->
+
+
+<!-- this puts a sign-in button, and a sign-out link, in the page -->
+<div class="g-signin2" data-onsuccess="onSignIn"></div>
+<p><a href="#" onclick="signOut();">Sign out</a></p>
+
+<!-- this shows how the page can use the information of the authenticated user -->
+<script>
+function onSignIn(googleUser) {
+  // do something with the user profile
+  
+    const profile = googleUser.getBasicProfile();
+    console.log(profile)
+    console.log(profile.getEmail())
+     console.log(profile.getimageuri())
+
+  
+                
+   }
+
+async function signOut() {
+  await gapi.auth2.getAuthInstance().signOut();
+  // update your page to show the user's logged out, or redirect elsewhere
+}
+
+// example that uses a server API and passes it a bearer token
+async function callServer() {
+  const id_token = gapi.auth2.getAuthInstance().currentUser.get().getAuthResponse().id_token;
+
+  const fetchOptions = {
+    credentials: 'same-origin',
+    method: 'GET',
+    headers: { 'Authorization': 'Bearer ' + id_token },
+  };
+  const response = await fetch(API_ENDPOINT_URL, fetchOptions);
+  if (!response.ok) {
+    // handle the error
+    return;
+  }
+  // handle the response
+}
+
+// see the complete example below for an extra function that refreshes the token when the computer wakes up from a sleep
+</script>
