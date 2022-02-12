@@ -37,4 +37,11 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
+
+router.get('/OIDC', (req, res) => {
+
+  res.render('GoogleOIDC');
+});
+
+
 module.exports = router;
