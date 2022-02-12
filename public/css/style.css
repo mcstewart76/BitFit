@@ -8,6 +8,7 @@
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, #26224f, #432e69, #7636dd, #5045b4);
   }
+ 
   
   @media (min-width: 768px) {
     .gradient-form {
