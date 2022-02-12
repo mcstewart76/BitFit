@@ -23,3 +23,12 @@
 .navbar{
     background-color: #26224f;
 }
+
+#carousel{
+  margin: auto;
+  width: 50%;
+  border-radius: 25%;
+  box-shadow: 5px 10px #ff1818;
+  padding: 10px;
+}
+
