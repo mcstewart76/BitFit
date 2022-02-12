@@ -19,7 +19,6 @@ Nft.init(
        numberOfViews: {
            type: DataTypes.INTEGER,
            allowNull: false,
-           autoIncrement: true,
        },
        asset_id: {
            type: DataTypes.STRING,
@@ -29,17 +28,21 @@ Nft.init(
         type: DataTypes.STRING,
         allowNull: false,
        },
-    }   
-)
+        
+    },  
+    {
+        sequelize,
+        timestamps: false,
+        freezeTableName: true,
+        underscored: true,
+        modelName: 'nft',
+        
+      }
 
-{
-    sequelize,
-    timestamps: false,
-    freezeTableName: true,
-    underscored: true,
-    modelName: 'nft',
-  }
-);
+    
+       
+    
+  );
 
 module.exports = Nft;
 
