@@ -7,4 +7,9 @@ const withAuth = (req, res, next) => {
   }
 };
 
-module.exports = withAuth;
+
+const isLoggedIn = (req, res, next) =>{
+      req.user ? next() : res.sendStatus(401);
+}
+
+module.exports = withAuth, isLoggedIn;
