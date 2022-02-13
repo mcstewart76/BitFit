@@ -43,5 +43,9 @@ router.get('/OIDC', (req, res) => {
   res.render('GoogleOIDC');
 });
 
+router.get('/homepage', (req, res) => {
+
+  res.render('homepage');
+});
 
 module.exports = router;
