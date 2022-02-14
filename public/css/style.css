@@ -13,7 +13,7 @@
     background: #1d1b3d;
   
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #26224f, #432e69);
+    background: -webkit-linear-gradient(to right, #26224f);
   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background: linear-gradient(to right, #26224f);
@@ -54,27 +54,25 @@ background: #4c4c55;
       border-bottom-right-radius: .3rem;
     }
   }
-  a, a:hover, a:focus, a:active {
+a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
 }
 
-a:hover, a:focus {
-    color: #802a96;
-    text-decoration: underline;
-}
+
 input, textarea{
   background-color:#666;
   color: #FFF;
 }
 .pr-6{
   padding-right: 5rem !important;
-
+}
 #title{
 color: white;
 text-align: center;
 padding-bottom: 50px;
 }
+
 #box{
 padding-bottom: 50px;
 }
