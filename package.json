@@ -3,10 +3,25 @@
   "version": "1.0.0",
   "description": "NFT generator",
   "main": "server.js",
+  "pkg": {
+    "assets": [
+      "utils/nftlib/layers/**/*",
+      "utils/nftlib/node_modules/**/*",
+      "utils/nftlib/src/**/*"
+    ]
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "seed": "node seeds/seed.js"
+    "seed": "node seeds/seed.js",
+    "build": "node utils/nftlib/index.js",
+    "generate": "node utils/nftlib/index.js",
+    "rarity": "node utils/nftlib/utils/rarity.js",
+    "preview": "node utils/nftlib/utils/preview.js",
+    "pixelate": "node utils/nftlib/utils/pixelate.js",
+    "update_info": "node utils/nftlib/utils/update_info.js",
+    "preview_gif": "node utils/nftlib/utils/preview_gif.js",
+    "generate_metadata": "node utils/nftlib/utils/generate_metadata.js"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +37,11 @@
     "mysql2": "^2.2.5",
     "passport": "^0.5.2",
     "passport-google-oauth2": "^0.2.0",
-    "sequelize": "^6.3.5"
+    "sequelize": "^6.3.5",
+    "canvas": "^2.8.0",
+    "gif-encoder-2": "^1.0.5",
+    "sha1": "^1.1.1",
+    "yarn": "^1.22.17"
   },
   "repository": {
     "type": "git",
