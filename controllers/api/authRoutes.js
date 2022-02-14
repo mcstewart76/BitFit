@@ -15,7 +15,7 @@ router.get('/google', passport.authenticate('google',{scope:['profile']}))
 router.get('/google/callback', async (req, res) => {
   try {
     await passport.authenticate('google',{
-      successRedirect: res.render('homepage'),
+      successRedirect: res.render('dashboard'),
       failureRedirect: '/failure',
 
     })

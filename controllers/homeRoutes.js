@@ -23,7 +23,8 @@ router.get('/chris', (req, res) => {
   res.render('homepage');
 });
 router.get('/loginpage', (req, res) => {
-  
+  res.render('loginpage');
+});
 
 router.get('/signup', (req, res) => {
 
@@ -35,14 +36,11 @@ router.get('/homepage', (req, res) => {
   res.render('homepage');
 });
 
-router.get('/homepage', (req, res) => {
-
-  res.render('homepage');
-});
 
 router.get('/dashboard', (req, res) => {
 
   res.render('dashboard');
 });
+
 
 module.exports = router;
