@@ -1,5 +1,5 @@
 
-<section class="h-100 gradient-form" style="background-color: #eee;">
+<section class="h-100 gradient-form" style="background-color: #26224f">
   <div class="container py-5 h-100">
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-xl-10">
@@ -10,43 +10,38 @@
 
                 <div class="text-center">
                   <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp" style="width: 185px;" alt="logo">
-                  <h4 class="mt-1 mb-5 pb-1">BitFit</h4>
+                  
                 </div>
 
-                <form class="login-form">
-                  <p>Please login to your account</p>
+                <form>
+                  <h4 class="mt-1 mb-3 pb-1">Sign In</h4>
 
-                  <div class="form-outline mb-4">
-                    <input type="email" id="email-login" class="form-control" placeholder="Phone number or email address"/>
-                    <label class="form-label" for="form2Example11">Username</label>
+                  <div class="form-outline mb-3">
+                    <label class="form-label small mb-1" for="form2Example11">Username</label>
+                    <input type="email" id="form2Example11" class="form-control" placeholder="Please enter your email"/>
+                    
                   </div>
 
-                  <div class="form-outline mb-4">
-                    <input type="password" id="password-login" class="form-control" />
-                    <label class="form-label" for="form2Example22">Password</label>
+                  <div class="form-outline mb-3">
+                    <label class="form-label small mt-1 mb-1" for="form2Example22">Password</label>
+                    <input type="password" id="form2Example22" class="form-control" placeholder="Please enter your password" />
+                    
+                  </div>
+                  
+                  <div class="text-center pt-1 mb-3 pb-1">
+                    <button class="btn btn-primary btn-block mb-2 px-5" type="button">Login</button>
+                    {{!-- <a class="text-muted" href="#!">Forgot password?</a> --}}
                   </div>
 
-                    <div class="d-flex justify-content-center text-center mt-4 pt-1">
-                        <a href="#!" class="text-white"><i class="fab fa-facebook-f fa-lg"></i></a>
-                        <a href="#!" class="text-white"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
-                        <a href="#!" class="text-white"><i class="fab fa-google fa-lg"></i></a>
+                    <div class="d-flex justify-content-center text-center mt-2 mb-3 pt-1">
+                        <a href="#!" class="text-black"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a href="#!" class="text-black"><i class="fab fa-twitter fa-lg mx-4 px-2"></i></a>
+                        <a href="#!" class="text-black"><i class="fab fa-google fa-lg"></i></a>
                     </div>
 
-                  <div class="text-center pt-1 mb-5 pb-1">
-                    <button class="btn btn-primary btn-block fa-lg gradient-custom-2 mb-3" id="loginbtn" type="button">Log in</button>
-                    <a class="text-muted" href="#!">Forgot password?</a>
-                  </div>
+                  
 
-                  <div class="d-flex align-items-center justify-content-center pb-4">
-                    <p class="mb-0 me-2">Don't have an account?</p>
-                    <button type="button" class="btn btn-outline-danger" id="createbtn" >Create new</button>
-                  </div>
-
-
-                  <div class="d-flex align-items-center justify-content-center pb-4">
-                    <p class="mb-0 me-2">OR</p>
-                    <button type="button" class="btn btn-outline-danger" id="Googlebtn" >login with Google</button>
-                  </div>
+                  
 
                 </form>
 
