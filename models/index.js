@@ -14,12 +14,12 @@ User.hasMany(Closetitems, {
   
 
   User.hasMany(Nftitems, {
-    foreignKey: 'post_id'
+    foreignKey: 'user_id'
   });
   
 
   Nftitems.belongsTo(Closetitems, {
-    foreignKey: 'user_id'
+    foreignKey: 'closet_id'
   });
   
 
