@@ -1,3 +1,17 @@
+body{
+  background: #1d1b3d;
+  min-width: 520px;
+}
+
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 100%;
+}
+.rounded-xl{
+  border-radius: 5%;
+}
 .gradient-custom-2 {
     /* fallback for old browsers */
     background: #1d1b3d;
@@ -13,14 +27,27 @@
     background: #1d1b3d;
   
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #26224f);
+    background: -webkit-linear-gradient(to right, #1d1b3d);
   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #26224f);
+    background: linear-gradient(to right, #1d1b3d);
   }
  .nicegrey{
  background: #4c4c55;
  }
+ .minicardcolor{
+   background-color: #17a2b8;
+   opacity: 0.9;
+ }
+ .blueback{
+  background-color: #17a2b8;
+ }
+ .bluetext{
+   color:#17a2b8;
+ }
+ nav .navbar-nav li a{
+  color: #17a2b8 !important;
+  }
  .gradient-custom-3 {
   /* fallback for old browsers */
   background: #1d1b3d;
@@ -41,6 +68,7 @@
 }
 .nicegrey{
 background: #4c4c55;
+
 }
   
   @media (min-width: 768px) {
@@ -118,4 +146,9 @@ padding-bottom: 50px;
 
 .row{
   padding: 10px;
+}
+.avatarImg{
+  border-radius: 50%;
+  line-height: 1;
+  
 }

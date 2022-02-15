@@ -17,11 +17,8 @@ router.get('/login', (req, res) => {
 
   res.render('login');
 });
-router.get('/chris', (req, res) => {
-  
 
-  res.render('registration');
-});
+
 router.get('/loginpage', (req, res) => {
   res.render('loginpage');
 });
@@ -42,5 +39,9 @@ router.get('/dashboard', (req, res) => {
   res.render('dashboard');
 });
 
+router.get('/nft', (req, res) => {
+
+  res.render('nft');
+});
 
 module.exports = router;
