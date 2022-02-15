@@ -1,6 +1,6 @@
 const basePath = process.cwd();
-const { MODE } = require(`${basePath}/constants/blend_mode.js`);
-const { NETWORK } = require(`${basePath}/constants/network.js`);
+const { MODE } = require(`${basePath}/utils/nftlib/constants/blend_mode.js`);
+const { NETWORK } = require(`${basePath}/utils/nftlib/constants/network.js`);
 
 const network = NETWORK.eth;
 

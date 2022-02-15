@@ -3,13 +3,13 @@ const path = require("path");
 const { createCanvas, loadImage } = require("canvas");
 const basePath = process.cwd();
 const buildDir = `${basePath}/build/json`;
-const inputDir = `${basePath}/build/images`;
+const inputDir = `${basePath}/utils/nftlib/build/images`;
 const {
   format,
   namePrefix,
   description,
   baseUri,
-} = require(`${basePath}/src/config.js`);
+} = require(`${basePath}/utils/nftlib/src/config.js`);
 const console = require("console");
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");

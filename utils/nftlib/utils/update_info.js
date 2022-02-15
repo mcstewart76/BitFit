@@ -1,5 +1,5 @@
 const basePath = process.cwd();
-const { NETWORK } = require(`${basePath}/constants/network.js`);
+const { NETWORK } = require(`${basePath}/utils/nftlib/constants/network.js`);
 const fs = require("fs");
 
 const {
@@ -8,10 +8,10 @@ const {
   namePrefix,
   network,
   solanaMetadata,
-} = require(`${basePath}/src/config.js`);
+} = require(`${basePath}/utils/nftlib/src/config.js`);
 
 // read json data
-let rawdata = fs.readFileSync(`${basePath}/build/json/_metadata.json`);
+let rawdata = fs.readFileSync(`${basePath}/utils/nftlib/build/json/_metadata.json`);
 let data = JSON.parse(rawdata);
 
 data.forEach((item) => {
@@ -25,13 +25,13 @@ data.forEach((item) => {
     item.image = `${baseUri}/${item.edition}.png`;
   }
   fs.writeFileSync(
-    `${basePath}/build/json/${item.edition}.json`,
+    `${basePath}/utils/nftlib/build/json/${item.edition}.json`,
     JSON.stringify(item, null, 2)
   );
 });
 
 fs.writeFileSync(
-  `${basePath}/build/json/_metadata.json`,
+  `${basePath}/utils/nftlib/build/json/_metadata.json`,
   JSON.stringify(data, null, 2)
 );
 

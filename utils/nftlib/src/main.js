@@ -1,10 +1,10 @@
 const basePath = process.cwd();
-const { NETWORK } = require(`${basePath}/constants/network.js`);
+const { NETWORK } = require(`${basePath}/utils/nftlib/constants/network.js`);
 const fs = require("fs");
 const sha1 = require(`${basePath}/node_modules/sha1`);
 const { createCanvas, loadImage } = require(`${basePath}/node_modules/canvas`);
-const buildDir = `${basePath}/build`;
-const layersDir = `${basePath}/layers`;
+const buildDir = `${basePath}/utils/nftlib/build`;
+const layersDir = `${basePath}/utils/nftlib/layers`;
 const {
   format,
   baseUri,
@@ -21,7 +21,7 @@ const {
   network,
   solanaMetadata,
   gif,
-} = require(`${basePath}/src/config.js`);
+} = require(`${basePath}/utils/nftlib/src/config.js`);
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
 ctx.imageSmoothingEnabled = format.smoothing;
@@ -29,7 +29,7 @@ var metadataList = [];
 var attributesList = [];
 var dnaList = new Set();
 const DNA_DELIMITER = "-";
-const HashlipsGiffer = require(`${basePath}/modules/HashlipsGiffer.js`);
+const HashlipsGiffer = require(`${basePath}/utils/nftlib/modules/HashlipsGiffer.js`);
 
 let hashlipsGiffer = null;
 
