@@ -1,5 +1,6 @@
 body{
   background: #1d1b3d;
+  min-width: 520px;
 }
 
 .btn-xl {
@@ -26,10 +27,10 @@ body{
     background: #1d1b3d;
   
     /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, #26224f);
+    background: -webkit-linear-gradient(to right, #1d1b3d);
   
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, #26224f);
+    background: linear-gradient(to right, #1d1b3d);
   }
  .nicegrey{
  background: #4c4c55;
@@ -44,6 +45,9 @@ body{
  .bluetext{
    color:#17a2b8;
  }
+ nav .navbar-nav li a{
+  color: #17a2b8 !important;
+  }
  .gradient-custom-3 {
   /* fallback for old browsers */
   background: #1d1b3d;
@@ -142,4 +146,9 @@ padding-bottom: 50px;
 
 .row{
   padding: 10px;
+}
+.avatarImg{
+  border-radius: 50%;
+  line-height: 1;
+  
 }
