@@ -1,8 +1,10 @@
 body{
   background: #1d1b3d;
 }
-.border-radius{
-  border-radius: 2%;
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
 }
 
 
