@@ -1,13 +1,16 @@
 body{
   background: #1d1b3d;
 }
+
 .btn-xl {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
+  width: 100%;
 }
-
-
+.rounded-xl{
+  border-radius: 5%;
+}
 .gradient-custom-2 {
     /* fallback for old browsers */
     background: #1d1b3d;
@@ -31,6 +34,16 @@ body{
  .nicegrey{
  background: #4c4c55;
  }
+ .minicardcolor{
+   background-color: #17a2b8;
+   opacity: 0.9;
+ }
+ .blueback{
+  background-color: #17a2b8;
+ }
+ .bluetext{
+   color:#17a2b8;
+ }
  .gradient-custom-3 {
   /* fallback for old browsers */
   background: #1d1b3d;
@@ -51,6 +64,7 @@ body{
 }
 .nicegrey{
 background: #4c4c55;
+
 }
   
   @media (min-width: 768px) {
