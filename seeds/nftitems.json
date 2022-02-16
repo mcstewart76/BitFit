@@ -1,247 +1,164 @@
 [
-    {
-        "type": "jackets",
-        "name": "red jacket",
-        "uri": "/jackets/Hoodies_jackets (2).png"
-    },
-    
-    {
-        "type": "jackets",
-        "name": "blue jacket",
-        "uri": "/jackets/Hoodies_jackets (3).png"
-    },
-    
-    {
-        "type": "jackets",
-        "name": "orange jacket",
-        "uri": "/jackets/Hoodies_jackets (4).png"
-    },
+{
+    "name": "shoes #1",
+    "description": "fur shoes",
+    "image": "images/shoes/Shoes (2).png",
+    "dna": "4d724e7f525daecbd7aebb443d6b076469768299",
+    "edition": 1,
+    "date": 1644968926784
 
-    {
-        "type": "jackets",
-        "name": "gold jacket",
-        "uri": "/jackets/Hoodies_jackets (5).png"
-    },
+},
 
-    {
-        "type": "jackets",
-        "name": "gold jacket",
-        "uri": "/jackets/Hoodies_jackets (5).png"
-    },
+{
+    "name": "shoes #2",
+    "description": "white shoes",
+    "image": "images/shoes/Shoes (3).png",
+    "dna": "4d724e7f525daecgd7aebb443d6b076469768223",
+    "edition": 2,
+    "date": 1644968926784
 
-    {
-        "type": "jackets",
-        "name": "white jacket",
-        "uri": "/jackets/Hoodies_jackets (6).png"
-    },
+},
 
-    {
-        "type": "jackets",
-        "name": "yellow jacket",
-        "uri": "/jackets/Hoodies_jackets.png"
-    },
 
-    {
-        "type": "jordans",
-        "name": "red/white/blue jordans",
-        "uri": "/jordans/Jordans (2).png"
-    },
+{
+    "name": "shoes #3",
+    "description": "white and blue shoes",
+    "image": "images/shoes/Shoes (4).png",
+    "dna": "4d724e7f525daecgd7aebb44g56b076469768276",
+    "edition": 3,
+    "date": 1644968926784
 
-    {
-        "type": "jordans",
-        "name": "red & white jordans",
-        "uri": "/jordans/Jordans (3).png"
-    },
+},
 
-    {
-        "type": "jordans",
-        "name": "red & white jordans",
-        "uri": "/jordans/Jordans (3).png"
-    },
+{
+    "name": "shoes #4",
+    "description": "white and green shoes",
+    "image": "images/shoes/Shoes (5).png",
+    "dna": "4d724e7f525daecgd7aebb77g56b076469768242",
+    "edition": 4,
+    "date": 1644968926784
 
-     {
-        "type": "jordans",
-        "name": "red, black & white jordans",
-        "uri": "/jordans/Jordans (4).png"
-    },
+},
 
-    {
-        "type": "jordans",
-        "name": "blue, black & white jordans",
-        "uri": "/jordans/Jordans (5).png"
-    },
+{
+    "name": "shoes #5",
+    "description": "white loafers",
+    "image": "images/shoes/Shoes (6).png",
+    "dna": "4d724e7f525daecgd7aebb77g56b076469768786",
+    "edition": 5,
+    "date": 1644968926784
 
-    {
-        "type": "jordans",
-        "name": "red, black & white jordans 2",
-        "uri": "/jordans/Jordans (6).png"
-    },
+},
 
-    {
-        "type": "jordans",
-        "name": "grey, black & white jordans",
-        "uri": "/jordans/Jordans (7).png"
-    },
+{
+    "name": "shoes #6",
+    "description": "blue dockers",
+    "image": "images/shoes/Shoes (7).png",
+    "dna": "4d724e7f525daecgd7aebb99g56b076466978786",
+    "edition": 6,
+    "date": 1644968926784
 
-    {
-        "type": "jordans",
-        "name": "neon jordans",
-        "uri": "/jordans/Jordans.png"
-    },
+},
 
-    {
-        "type": "pants",
-        "name": "green cargos",
-        "uri": "/pants/Pants (2).png"
-    },
+{
+    "name": "shoes #7",
+    "description": "Timberlands",
+    "image": "images/shoes/Shoes.png",
+    "dna": "4d724e7f525daecgd6debb99g56b076466978790",
+    "edition": 7,
+    "date": 1644968926784
 
-    {
-        "type": "pants",
-        "name": "blue pants",
-        "uri": "/pants/Pants (3).png"
-    },
+},
 
-    {
-        "type": "pants",
-        "name": "grey pants",
-        "uri": "/pants/Pants (4).png"
-    },
+{
+    "name": "shirts 1",
+    "description": "White T shirt",
+    "image": "images/shirts/Shirts  (2).png",
+    "dna": "4d724e7f565daecgd6debb99g56b076466978865",
+    "edition": 1,
+    "date": 1644968926784
 
-    {
-        "type": "pants",
-        "name": "light blue pants",
-        "uri": "/pants/Pants (5).png"
-    },
+},
 
-    {
-        "type": "pants",
-        "name": "medium light blue pants",
-        "uri": "/pants/Pants (6).png"
-    },
+{
+    "name": "shirts 2",
+    "description": "White dress shirt with tie",
+    "image": "images/shirts/Shirts  (3).png",
+    "dna": "4d724e7f565dghegd6debb99g56b076466978867",
+    "edition": 2,
+    "date": 1644968926784
 
-    {
-        "type": "pants",
-        "name": "partially light blue pants",
-        "uri": "/pants/Pants (6).png"
-    },
+},
 
-    {
-        "type": "pants",
-        "name": "ripped light blue pants",
-        "uri": "/pants/Pants (7).png"
-    },
+{
+    "name": "shirts 3",
+    "description": "white long sleeve shirt",
+    "image": "images/shirts/Shirts  (4).png",
+    "dna": "4d724e7f565dghegd6debb77r56b076466978877",
+    "edition": 3,
+    "date": 1644968926784
 
-    {
-        "type": "pants",
-        "name": "green sweat cargos",
-        "uri": "pants/Pants (8).png"
-    },
+},
 
-    {
-        "type": "pants",
-        "name": "white sweats",
-        "uri": "/pants/Pants.png"
-    },
+{
+    "name": "shirts 4",
+    "description": "beige long sleeve shirt",
+    "image": "images/shirts/Shirts  (5).png",
+    "dna": "4d724e7f565dghehj6debb77r56b076466978451",
+    "edition": 4,
+    "date": 1644968926784
 
-    {
-        "type": "shirts",
-        "name": "white T shirt",
-        "uri": "/shirts/Shirts  (2).png"
-    },
+},
 
-    {
-        "type": "shirts",
-        "name": "white dress shirt with Tie",
-        "uri": "/shirts/Shirts  (3).png"
-    },
+{
+    "name": "shirts 5",
+    "description": "pink T shirt",
+    "image": "images/shirts/Shirts  (6).png",
+    "dna": "4d724e7f565dghehj6debb77r56b076466978472",
+    "edition": 5,
+    "date": 1644968926784
 
-    {
-        "type": "shirts",
-        "name": "white long sleeve",
-        "uri": "/shirts/Shirts  (4).png"
-    },
+},
 
-    {
-        "type": "shirts",
-        "name": "beige long sleeve shirt",
-        "uri": "/shirts/Shirts  (5).png"
-    },
+{
+    "name": "shirts 6",
+    "description": "light blue T shirt",
+    "image": "images/shirts/Shirts  (7).png",
+    "dna": "4d724e7f565djhehj6debb77r56b076466978845",
+    "edition": 6,
+    "date": 1644968926784
 
-    {
-        "type": "shirts",
-        "name": "pink T shirt",
-        "uri": "/shirts/Shirts  (6).png"
-    },
+},
 
-    {
-        "type": "shirts",
-        "name": "light blue T shirt",
-        "uri": "/shirts/Shirts  (7).png"
-    },
+{
+    "name": "shirts 7",
+    "description": "red and white T shirt",
+    "image": "images/shirts/Shirts  (8).png",
+    "dna": "4d724e7f565djhehj6debb77r56b076466977869",
+    "edition": 7,
+    "date": 1644968926784
 
-    {
-        "type": "shirts",
-        "name": "red and white T shirt",
-        "uri": "/shirts/Shirts  (8).png"
-    },
+},
 
-    {
-        "type": "shirts",
-        "name": "blue T shirt",
-        "uri": "/shirts/Shirts  (9).png"
-    },
+{
+    "name": "shirts 8",
+    "description": "blue T shirt",
+    "image": "images/shirts/Shirts  (9).png",
+    "dna": "4d724e7f565djhehj6debb77r56b076466977634",
+    "edition": 8,
+    "date": 1644968926784
 
-    {
-        "type": "shirts",
-        "name": "faded yellow T shirt",
-        "uri": "/shirts/Shirts  (10).png"
-    },
+},
 
-    {
-        "type": "shirts",
-        "name": "green sweater",
-        "uri": "/shirts/Shirts .png"
-    },
+{
+    "name": "shirts 9",
+    "description": "light yellow T shirt",
+    "image": "images/shirts/Shirts  (10).png",
+    "dna": "4d724e7f565djhehj6debb77r56b076478377638",
+    "edition": 9,
+    "date": 1644968926784
 
-    {
-        "type": "shoes",
-        "name": "fur boots",
-        "uri": "/shoes/Shoes (2).png"
-    },
+}
 
-    {
-        "type": "shoes",
-        "name": "white shoes",
-        "uri": "/shoes/Shoes (3).png"
-    },
 
-    {
-        "type": "shoes",
-        "name": "white and blue shoes",
-        "uri": "/shoes/Shoes (4).png"
-    },
-
-    {
-        "type": "shoes",
-        "name": "white and green shoes",
-        "uri": "/shoes/Shoes (5).png"
-    },
-
-    {
-        "type": "shoes",
-        "name": "white loafers",
-        "uri": "/shoes/Shoes (6).png"
-    },
-
-    {
-        "type": "shoes",
-        "name": "blue dockers",
-        "uri": "/shoes/Shoes (7).png"
-    },
-
-    {
-        "type": "shoes",
-        "name": "Tims",
-        "uri": "/shoes/Shoes.png"
-    }
 ]
