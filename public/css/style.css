@@ -12,6 +12,9 @@ body{
 .rounded-xl{
   border-radius: 5%;
 }
+.rounded-px{
+  border-radius: 50px;
+}
 .gradient-custom-2 {
     /* fallback for old browsers */
     background: #1d1b3d;
@@ -105,11 +108,11 @@ padding-bottom: 50px;
 padding-bottom: 50px;
 }
 
-#carousel{
+#carouselBig{
   margin: auto;
-  width: 80%;
-  height:400px;
-  border-radius: 25%;
+  max-width: fit-content;
+  max-height: fit-content;
+  border-radius: 40px;
   background-color: #26224f;
   box-shadow: 
   0 0 15px 5px #7636dd,
@@ -133,6 +136,41 @@ padding-bottom: 50px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
+@media (max-width: 767px) {
+  .carousel-inner .carousel-item > div {
+      display: none;
+  }
+  .carousel-inner .carousel-item > div:first-child {
+      display: block;
+  }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+  display: flex;
+} 
+
+/* medium and up screens */
+@media (min-width: 500px) {
+  
+  .carousel-inner .carousel-item-end.active,
+  .carousel-inner .carousel-item-next {
+    transform: translateX(25%);
+  }
+  
+  .carousel-inner .carousel-item-start.active, 
+  .carousel-inner .carousel-item-prev {
+    transform: translateX(-25%);
+  }
+}
+
+.carousel-inner .carousel-item-end,
+.carousel-inner .carousel-item-start { 
+transform: translateX(0);
+}
+
+
 
 #topnfts{
   text-align: center;
@@ -150,5 +188,13 @@ padding-bottom: 50px;
 .avatarImg{
   border-radius: 50%;
   line-height: 1;
-  
+
+}
+
+
+#infinitecountdown {
+  text-align: center;
+  color: #eee;
+  text-shadow: 1px 1px 5px black;
+  font-size: 2rem;
 }
