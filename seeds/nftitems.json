@@ -2,7 +2,7 @@
     {
         "name": "jacket #1",
         "description": "red jacket",
-        "image": "images\jackets\Hoodies_jackets (2).png",
+        "image": "images/jackets/Hoodies_jackets (2).png",
         "dna": "4d724e7f919daecbd7aebb043d5b076469e98110",
         "edition": 1,
         "date": 1644968926784
@@ -10,7 +10,7 @@
     {
         "name": "jacket #2",
         "description": "blue jacket",
-        "image": "images\jackets\Hoodies_jackets (3).png",
+        "image": "images/jackets/Hoodies_jackets (3).png",
         "dna": "4d724e7f919daecbd7aebb043d5b076469e58112",
         "edition": 2,
         "date": 1644968926784
@@ -18,7 +18,7 @@
     {
         "name": "jacket #3",
         "description": "orange jacket",
-        "image": "images\jackets\Hoodies_jackets (4).png",
+        "image": "images/jackets/Hoodies_jackets (4).png",
         "dna": "4d724e7f919daecbd7aebb443d5b076469e58118",
         "edition": 3,
         "date": 1644968926784
@@ -26,7 +26,7 @@
     {
         "name": "jacket #4",
         "description": "gold jacket",
-        "image": "images\jackets\Hoodies_jackets (5).png",
+        "image": "images/jackets/Hoodies_jackets (5).png",
         "dna": "4d724e7f920daecbd7aebb443d6b076469e58138",
         "edition": 4,
         "date": 1644968926784
@@ -34,7 +34,7 @@
     {
         "name": "jacket #5",
         "description": "white jacket",
-        "image": "images\jackets\Hoodies_jackets (6).png",
+        "image": "images/jackets/Hoodies_jackets (6).png",
         "dna": "4d724e7f925daecbd7aebb443d6b076469e58199",
         "edition": 5,
         "date": 1644968926784
@@ -42,7 +42,7 @@
     {
         "name": "jacket #6",
         "description": "yellow jacket",
-        "image": "images\jackets\Hoodies_jackets.png",
+        "image": "images/jackets/Hoodies_jackets.png",
         "dna": "4d724e7f525daecbd7aebb443d6b076469e68290",
         "edition": 6,
         "date": 1644968926784
@@ -50,7 +50,7 @@
     {
         "name": "jordan #1",
         "description": "blue, red and white jordan",
-        "image": "images\jordans\Jordans (2).png",
+        "image": "images/jordans/Jordans (2).png",
         "dna": "4d724e7f525daedfkgldkebb443d6b076469e68klnsldfn",
         "edition": 1,
         "date": 1644968926784
@@ -58,7 +58,7 @@
     {
         "name": "jordan #2",
         "description": "red jordan",
-        "image": "images\jordans\Jordans (3).png",
+        "image": "images/jordans/Jordans (3).png",
         "dna": "4d724e7f525daedfkgldkebb443d6b076469e68klnsl093",
         "edition": 2,
         "date": 1644968926784
@@ -66,7 +66,7 @@
     {
         "name": "jordan #3",
         "description": "black and white jordan",
-        "image": "images\jordans\Jordans (4).png",
+        "image": "images/jordans/Jordans (4).png",
         "dna": "4d724e7f525daedfkgldkebb443d6b076469e68klnsl234",
         "edition": 3,
         "date": 1644968926784
@@ -74,7 +74,7 @@
     {
         "name": "jordan #4",
         "description": "blue, red and white jordan",
-        "image": "images\jordans\Jordans (5).png",
+        "image": "images/jordans/Jordans (5).png",
         "dna": "4d724e7f525d45tedfkgldkebb443d6b076469e68klnsld456",
         "edition": 4,
         "date": 1644968926784
@@ -82,7 +82,7 @@
     {
         "name": "jordan #5",
         "description": "blue, red and white jordan",
-        "image": "images\jordans\Jordans (6).png",
+        "image": "images/jordans/Jordans (6).png",
         "dna": "rtdf724e7f525daedfkgldkebb443d6b076469e68klnsld456t",
         "edition": 5,
         "date": 1644968926784
@@ -90,7 +90,7 @@
     {
         "name": "jordan #6",
         "description": "white jordan",
-        "image": "images\jordans\Jordans (7).png",
+        "image": "images/jordans/Jordans (7).png",
         "dna": "562dftgf525daedfkgldkebb443d6b076469e68klnsldfn3456",
         "edition": 6,
         "date": 1644968926784
@@ -98,7 +98,7 @@
     {
         "name": "jordan #7",
         "description": "gray and white jordan",
-        "image": "images\jordans\Jordans (8).png",
+        "image": "images/jordans/Jordans (8).png",
         "dna": "r456t24e7f525daedfkgldkebb443d6b076469e68klnsl65444",
         "edition": 7,
         "date": 1644968926784
@@ -106,7 +106,7 @@
     {
         "name": "jordan #8",
         "description": "red, blue and purple jordan",
-        "image": "images\jordans\Jordans.png",
+        "image": "images/jordans/Jordans.png",
         "dna": "t24e7f525daedfkgldkebb443d6b076469e68klnsl65456789",
         "edition": 8,
         "date": 1644968926784
@@ -114,7 +114,7 @@
     {
         "name": "pants #1",
         "description": "green pants",
-        "image": "images\pants\Pants (2).png",
+        "image": "images/pants/Pants (2).png",
         "dna": "3456t24e7f525daedfkgldkebb443d6b076469e68klnsl658303985",
         "edition": 1,
         "date": 1644968926784
@@ -122,7 +122,7 @@
     {
         "name": "pants #2",
         "description": "blue pants",
-        "image": "images\pants\Pants (3).png",
+        "image": "images/pants/Pants (3).png",
         "dna": "56t24e7f525daedfkgldkebb443d6b076469e68klnsl6583039",
         "edition": 2,
         "date": 1644968926784
@@ -130,7 +130,7 @@
     {
         "name": "pants #3",
         "description": "gray pants",
-        "image": "images\pants\Pants (4).png",
+        "image": "images/pants/Pants (4).png",
         "dna": "55556t24e7f525daedfkgldkebb443d6b076469e68klnsl658303998432",
         "edition": 3,
         "date": 1644968926784
@@ -138,7 +138,7 @@
     {
         "name": "pants #4",
         "description": "light blue pants",
-        "image": "images\pants\Pants (5).png",
+        "image": "images/pants/Pants (5).png",
         "dna": "56456t24e7f525daedfkgldkebb443d6b076469e68klnsl6583039984",
         "edition": 4,
         "date": 1644968926784
@@ -146,7 +146,7 @@
     {
         "name": "pants #5",
         "description": "medium light blue pants",
-        "image": "images\pants\Pants (6).png",
+        "image": "images/pants/Pants (6).png",
         "dna": "98256t24e7f525daedfkgldkebb443d6b076469e68kl",
         "edition": 4,
         "date": 1644968926784
@@ -154,7 +154,7 @@
     {
         "name": "pants #6",
         "description": "light blue with holes pants",
-        "image": "images\pants\Pants (7).png",
+        "image": "images/pants/Pants (7).png",
         "dna": "256t24e7f525daedfkgldkebb443d6b076469e68kl64532",
         "edition": 5,
         "date": 1644968926784
@@ -162,7 +162,7 @@
     {
         "name": "pants #7",
         "description": "green pants",
-        "image": "images\pants\Pants (8).png",
+        "image": "images/pants/Pants (8).png",
         "dna": "47892256t24e7f525daedfkgldkebb443d6b076469e1409367",
         "edition": 6,
         "date": 1644968926784
@@ -170,7 +170,7 @@
     {
         "name": "pants #8",
         "description": "green pants",
-        "image": "images\pants\Pants.png",
+        "image": "images/pants/Pants.png",
         "dna": "2347892256t24e7f525daedfkgldkebb443d6b076469e14093",
         "edition": 7,
         "date": 1644968926784
