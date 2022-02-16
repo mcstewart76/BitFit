@@ -2,9 +2,9 @@
   "name": "Your Collection #2",
   "description": "Remember to replace this description",
   "image": "ipfs://NewUriToReplace/2.png",
-  "dna": "7a30586659fb2b09112dea97a4b3f5b5a9fa053a",
+  "dna": "396fe28c3b53ae48e25000f728b508db821cd02a",
   "edition": 2,
-  "date": 1644894105024,
+  "date": 1644968927001,
   "attributes": [
     {
       "trait_type": "Background",
@@ -16,7 +16,7 @@
     },
     {
       "trait_type": "Eye color",
-      "value": "Yellow"
+      "value": "Purple"
     },
     {
       "trait_type": "Iris",
@@ -28,11 +28,11 @@
     },
     {
       "trait_type": "Bottom lid",
-      "value": "High"
+      "value": "Low"
     },
     {
       "trait_type": "Top lid",
-      "value": "High"
+      "value": "Middle"
     }
   ],
   "compiler": "HashLips Art Engine"

@@ -1,16 +1,16 @@
-const basePath = process.cwd();
+var basePath = process.cwd();
 const { MODE } = require(`${basePath}/utils/nftlib/constants/blend_mode.js`);
 const { NETWORK } = require(`${basePath}/utils/nftlib/constants/network.js`);
 
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+var namePrefix = "Your Collection";
+var description = "Remember to replace this description";
+var baseUri = "ipfs://NewUriToReplace";
 
-const solanaMetadata = {
-  symbol: "YC",
+var solanaMetadata = {
+  symbol: "",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
@@ -22,7 +22,7 @@ const solanaMetadata = {
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
-const layerConfigurations = [
+var layerConfigurations = [
   {
     growEditionSizeTo: 5,
     layersOrder: [
@@ -37,7 +37,7 @@ const layerConfigurations = [
   },
 ];
 
-const shuffleLayerConfigurations = false;
+var shuffleLayerConfigurations = false;
 
 const debugLogs = false;
 
@@ -100,6 +100,17 @@ const preview_gif = {
   imageName: "preview.gif",
 };
 
+function set_Config (basePathVar, namePrefixVar, descriptionVar, baseUriVar, solanaMetadataVar, layerConfigurationsVar, shuffleLayerConfigurationsVar ) {
+  basePath = basePathVar,
+  namePrefix =namePrefixVar
+   description = descriptionVar;
+    baseUri = baseUriVar
+     solanaMetadata =solanaMetadataVar;
+      layerConfigurations = layerConfigurationsVar;
+       shuffleLayerConfigurations = shuffleLayerConfigurationsVar;
+
+}
+
 module.exports = {
   format,
   baseUri,
@@ -119,4 +130,5 @@ module.exports = {
   solanaMetadata,
   gif,
   preview_gif,
+  set_Config
 };
