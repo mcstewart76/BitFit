@@ -1,14 +1,17 @@
 const sequelize = require('../config/connection');
-const seedClosets = require(../models/closetitems);
-const seedNfts = require();
-const user = require();
+const seedUser = require('../models/user');
+const seedClosets = require('../models/closetitems');
+const seedNfts = require('../models/nftitems');
+
 
 const seedAll = async () => {
   await sequelize.sync({ force: true });
 
-  await ();
+  await (seedUser);
 
-  await ();
+  await (seedClosets);
+
+  await (seedNfts);
 
   process.exit(0);
 };
