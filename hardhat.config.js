@@ -5,7 +5,7 @@
  require("@nomiclabs/hardhat-ethers");
  const { ALCHEMY_URL, METAMASK_KEY } = process.env;
  module.exports = {
-    solidity: "0.8.0",
+    solidity: "0.8.1",
     defaultNetwork: "ropsten",
     networks: {
        hardhat: {},
