@@ -19,6 +19,8 @@ NftAttributes.init(
            type: DataTypes.STRING,
        },
        
+      
+
     },
 
     {
@@ -26,7 +28,7 @@ NftAttributes.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'nftAttributes',
+        modelName: 'nftAttribute',
         
       }  
   );
