@@ -8,6 +8,7 @@ require('./utils/GoogleAuth');
 const passport = require('passport');
 
 const sequelize = require('./config/connection');
+const { setDefaultResultOrder } = require('dns');
 
 // Create a new sequelize store using the express-session package
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -48,3 +49,4 @@ app.use(routes);
 sequelize.sync({ force: false }).then(() => {
   app.listen(PORT, () => console.log('Now listening'));
 });
+

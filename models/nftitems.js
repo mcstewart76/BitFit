@@ -19,7 +19,7 @@ Nftitems.init(
         type: DataTypes.STRING,
         allowNull: false,
         },
-        imageURI: {
+        image: {
             type: DataTypes.STRING,
             allowNull: false,
        },
@@ -28,11 +28,11 @@ Nftitems.init(
         allowNull: false,
         },
         edition: {
-            type: DataTypes.STRING,
+            type: DataTypes.INTEGER,
             allowNull: false,
             },
         date: {
-                type: DataTypes.STRING,
+                type: DataTypes.DATE,
                 allowNull: false,
                 },
        type: {
