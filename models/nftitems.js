@@ -15,16 +15,36 @@ Nftitems.init(
             type: DataTypes.STRING,
             allowNull: false,
        },
+       description: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        },
+        imageURI: {
+            type: DataTypes.STRING,
+            allowNull: false,
+       },
+       dna: {
+        type: DataTypes.STRING,
+        allowNull: false,
+        },
+        edition: {
+            type: DataTypes.STRING,
+            allowNull: false,
+            },
+        date: {
+                type: DataTypes.STRING,
+                allowNull: false,
+                },
        type: {
            type: DataTypes.STRING,
        },
        numberOfViews: {
             type: DataTypes.INTEGER,
-            allowNull: false,
+            allowNull: true,
        },
        blockchain_id: {
             type: DataTypes.STRING,
-            allowNull: false,
+            allowNull: true,
        },
     },
 

@@ -1,5 +1,6 @@
 const User = require('./user');
 const Nftitems = require('./nftitems');
+const NftAttributes = require('./nftAttributes');
 // const Closetitems = require('./closetitems');
 
 
@@ -14,7 +15,8 @@ const Nftitems = require('./nftitems');
   
 
   User.hasMany(Nftitems, {
-    foreignKey: 'user_id'
+    foreignKey: 'user_id',
+    onDelete: 'CASCADE',
   });
   
 
@@ -23,8 +25,22 @@ const Nftitems = require('./nftitems');
   // });
 
   Nftitems.belongsTo(User, {
-    foreignKey: 'user_id'
+    foreignKey: 'user_id',
+    onDelete: 'CASCADE',
   });
   
+Nftitems.hasMany(NftAttributes, {
+
+  foreignKey: 'nftItem_id',
+  onDelete: 'CASCADE',
+})
+
+
+NftAttributes.belongsTo(Nftitems, {
+  foreignKey: 'nftItem_id',
+  onDelete: 'CASCADE',
+});
+
+
 
 module.exports = { User, Nftitems, };

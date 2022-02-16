@@ -1,5 +1,5 @@
 const sequelize = require('../config/connection');
-const { User, Closetitems, Nftitems } = require('../models');
+const { User, Nftitems } = require('../models');
 
 const userData = require('./userData.json');
 const nftItems = require('./nftItems.json');
