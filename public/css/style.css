@@ -109,7 +109,7 @@ padding-bottom: 50px;
   margin: auto;
   width: 80%;
   height:400px;
-  border-radius: 25%;
+  /* border-radius: 25%; */
   background-color: #26224f;
   box-shadow: 
   0 0 15px 5px #7636dd,
@@ -150,5 +150,5 @@ padding-bottom: 50px;
 .avatarImg{
   border-radius: 50%;
   line-height: 1;
-  
+
 }
