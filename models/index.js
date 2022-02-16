@@ -1,5 +1,30 @@
 const User = require('./user');
-const Nft = require('./nft');
+const Nftitems = require('./nftitems');
+// const Closetitems = require('./closetitems');
 
 
-module.exports = { User, Nft };
+// User.hasMany(Closetitems, {
+//     foreignKey: 'user_id',
+//   });
+  
+
+  // Closetitems.belongsTo(User, {
+  //   foreignKey: 'user_id'
+  // });
+  
+
+  User.hasMany(Nftitems, {
+    foreignKey: 'user_id'
+  });
+  
+
+  // Nftitems.belongsTo(Closetitems, {
+  //   foreignKey: 'closet_id'
+  // });
+
+  Nftitems.belongsTo(User, {
+    foreignKey: 'user_id'
+  });
+  
+
+module.exports = { User, Nftitems, };

@@ -1,10 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
-const bcrypt = require('bcrypt');
 const sequelize = require('../config/connection');
 
-class Nft extends Model {}
+class Nftitems extends Model {}
 
-Nft.init(
+Nftitems.init(
     {
        id: {
            type: DataTypes.INTEGER,
@@ -12,37 +11,32 @@ Nft.init(
            primaryKey: true,
            autoIncrement: true,
        },
-       title: {
+       name: {
+            type: DataTypes.STRING,
+            allowNull: false,
+       },
+       type: {
            type: DataTypes.STRING,
-           allowNull: false,
        },
        numberOfViews: {
-           type: DataTypes.INTEGER,
-           allowNull: false,
-       },
-       asset_id: {
-           type: DataTypes.STRING,
-           allowNull: false,
+            type: DataTypes.INTEGER,
+            allowNull: false,
        },
        blockchain_id: {
-        type: DataTypes.STRING,
-        allowNull: false,
+            type: DataTypes.STRING,
+            allowNull: false,
        },
-        
-    },  
+    },
+
     {
         sequelize,
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'nft',
+        modelName: 'nftitems',
         
-      }
-
-    
-       
-    
+      }  
   );
 
-module.exports = Nft;
-
+module.exports = Nftitems;
+       

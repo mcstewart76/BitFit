@@ -1,0 +1,247 @@
+[
+    {
+        "type": "jackets",
+        "name": "red jacket",
+        "uri": "/jackets/Hoodies_jackets (2).png"
+    },
+    
+    {
+        "type": "jackets",
+        "name": "blue jacket",
+        "uri": "/jackets/Hoodies_jackets (3).png"
+    },
+    
+    {
+        "type": "jackets",
+        "name": "orange jacket",
+        "uri": "/jackets/Hoodies_jackets (4).png"
+    },
+
+    {
+        "type": "jackets",
+        "name": "gold jacket",
+        "uri": "/jackets/Hoodies_jackets (5).png"
+    },
+
+    {
+        "type": "jackets",
+        "name": "gold jacket",
+        "uri": "/jackets/Hoodies_jackets (5).png"
+    },
+
+    {
+        "type": "jackets",
+        "name": "white jacket",
+        "uri": "/jackets/Hoodies_jackets (6).png"
+    },
+
+    {
+        "type": "jackets",
+        "name": "yellow jacket",
+        "uri": "/jackets/Hoodies_jackets.png"
+    },
+
+    {
+        "type": "jordans",
+        "name": "red/white/blue jordans",
+        "uri": "/jordans/Jordans (2).png"
+    },
+
+    {
+        "type": "jordans",
+        "name": "red & white jordans",
+        "uri": "/jordans/Jordans (3).png"
+    },
+
+    {
+        "type": "jordans",
+        "name": "red & white jordans",
+        "uri": "/jordans/Jordans (3).png"
+    },
+
+     {
+        "type": "jordans",
+        "name": "red, black & white jordans",
+        "uri": "/jordans/Jordans (4).png"
+    },
+
+    {
+        "type": "jordans",
+        "name": "blue, black & white jordans",
+        "uri": "/jordans/Jordans (5).png"
+    },
+
+    {
+        "type": "jordans",
+        "name": "red, black & white jordans 2",
+        "uri": "/jordans/Jordans (6).png"
+    },
+
+    {
+        "type": "jordans",
+        "name": "grey, black & white jordans",
+        "uri": "/jordans/Jordans (7).png"
+    },
+
+    {
+        "type": "jordans",
+        "name": "neon jordans",
+        "uri": "/jordans/Jordans.png"
+    },
+
+    {
+        "type": "pants",
+        "name": "green cargos",
+        "uri": "/pants/Pants (2).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "blue pants",
+        "uri": "/pants/Pants (3).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "grey pants",
+        "uri": "/pants/Pants (4).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "light blue pants",
+        "uri": "/pants/Pants (5).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "medium light blue pants",
+        "uri": "/pants/Pants (6).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "partially light blue pants",
+        "uri": "/pants/Pants (6).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "ripped light blue pants",
+        "uri": "/pants/Pants (7).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "green sweat cargos",
+        "uri": "pants/Pants (8).png"
+    },
+
+    {
+        "type": "pants",
+        "name": "white sweats",
+        "uri": "/pants/Pants.png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "white T shirt",
+        "uri": "/shirts/Shirts  (2).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "white dress shirt with Tie",
+        "uri": "/shirts/Shirts  (3).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "white long sleeve",
+        "uri": "/shirts/Shirts  (4).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "beige long sleeve shirt",
+        "uri": "/shirts/Shirts  (5).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "pink T shirt",
+        "uri": "/shirts/Shirts  (6).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "light blue T shirt",
+        "uri": "/shirts/Shirts  (7).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "red and white T shirt",
+        "uri": "/shirts/Shirts  (8).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "blue T shirt",
+        "uri": "/shirts/Shirts  (9).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "faded yellow T shirt",
+        "uri": "/shirts/Shirts  (10).png"
+    },
+
+    {
+        "type": "shirts",
+        "name": "green sweater",
+        "uri": "/shirts/Shirts .png"
+    },
+
+    {
+        "type": "shoes",
+        "name": "fur boots",
+        "uri": "/shoes/Shoes (2).png"
+    },
+
+    {
+        "type": "shoes",
+        "name": "white shoes",
+        "uri": "/shoes/Shoes (3).png"
+    },
+
+    {
+        "type": "shoes",
+        "name": "white and blue shoes",
+        "uri": "/shoes/Shoes (4).png"
+    },
+
+    {
+        "type": "shoes",
+        "name": "white and green shoes",
+        "uri": "/shoes/Shoes (5).png"
+    },
+
+    {
+        "type": "shoes",
+        "name": "white loafers",
+        "uri": "/shoes/Shoes (6).png"
+    },
+
+    {
+        "type": "shoes",
+        "name": "blue dockers",
+        "uri": "/shoes/Shoes (7).png"
+    },
+
+    {
+        "type": "shoes",
+        "name": "Tims",
+        "uri": "/shoes/Shoes.png"
+    }
+]
