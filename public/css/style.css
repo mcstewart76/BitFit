@@ -190,3 +190,11 @@ transform: translateX(0);
   line-height: 1;
 
 }
+
+
+#infinitecountdown {
+  text-align: center;
+  color: #eee;
+  text-shadow: 1px 1px 5px black;
+  font-size: 2rem;
+}

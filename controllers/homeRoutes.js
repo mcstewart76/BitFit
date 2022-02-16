@@ -33,6 +33,10 @@ router.get('/homepage', (req, res) => {
   res.render('homepage');
 });
 
+router.get('/about', (req, res) => {
+
+  res.render('about');
+});
 
 router.get('/dashboard', (req, res) => {
 
