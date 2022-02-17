@@ -5,12 +5,17 @@ class Nftitems extends Model {}
 
 Nftitems.init(
     {
-       id: {
-           type: DataTypes.INTEGER,
-           allowNull: false,
-           primaryKey: true,
-           autoIncrement: true,
-       },
+    //    id: {
+    //        type: DataTypes.INTEGER,
+    //        allowNull: true,
+    //        primaryKey: true,
+    //        autoIncrement: true,
+    //     // references: {
+    //     //         model: 'nft_items',
+    //     //         key: 'edition',
+    //     //         unique: false
+    //     //       }
+    //    },
        name: {
             type: DataTypes.STRING,
             allowNull: false,
@@ -30,6 +35,7 @@ Nftitems.init(
         edition: {
             type: DataTypes.INTEGER,
             allowNull: false,
+            primaryKey: true,
             },
         date: {
                 type: DataTypes.DATE,
