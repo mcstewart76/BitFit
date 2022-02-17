@@ -31,13 +31,13 @@ const NftAttributes = require('./nftAttributes');
   
 Nftitems.hasMany(NftAttributes, {
 
-  foreignKey: 'nft_item_id',
+  // foreignKey: 'nft_item_id',
   onDelete: 'CASCADE',
 })
 
 
 NftAttributes.belongsTo(Nftitems, {
-  foreignKey: 'nft_item_id',
+  // foreignKey: 'nft_item_id',
   onDelete: 'CASCADE',
 });
 

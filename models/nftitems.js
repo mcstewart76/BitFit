@@ -46,6 +46,8 @@ Nftitems.init(
             type: DataTypes.STRING,
             allowNull: true,
        },
+
+    
     },
 
     {
@@ -53,7 +55,7 @@ Nftitems.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'nftitems',
+        modelName: 'nft_items',
         
       }  
   );
