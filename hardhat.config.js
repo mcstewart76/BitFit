@@ -1,3 +1,5 @@
+const { task } = require('hardhat/config');
+
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
@@ -14,6 +16,27 @@
   }
 });
 
+task("deploy", "Deploy the smart contract", async(taskArgs, hre) => {
+
+  const MyNFT = await ethers.getContractFactory("MyNFT");
+  const artwork = await MyNFT.deploy("BitFit Contract", "BITFIT");
+
+  await artwork.deployed();
+
+  await hre.run("verify:verify", {
+    address: artwork.address,
+    constructorArguments: [
+      "BitFit Contract",
+      "BITFIT"
+    ]
+  })
+
+
+})
+
+
+
+//testing on ropsten test network
 //  const { ALCHEMY_URL, METAMASK_KEY } = process.env;
 //  module.exports = {
 //     solidity: "0.8.1",
@@ -27,6 +50,22 @@
 //     },
 //  }
 
+const { ALCHEMY_URL, METAMASK_KEY, POLYGONSCAN_KEY } = process.env;
+
+//switched to matic test network(mumbai)
+
 module.exports = {
-  solidity: "0.8.1",
+  solidity: "0.8.4",
+  networks: {
+    mumbai: {
+      url: "https://matic-testnet-archive-rpc.bwarelabs.com",
+      accounts: [
+        METAMASK_KEY,
+      ]
+    }
+  },
+  etherscan: {
+    apiKey:POLYGONSCAN_KEY
+  }
+
 };
