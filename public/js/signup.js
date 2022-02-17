@@ -25,5 +25,33 @@ const signUpFormHandler = async (event) => {
 
 document.querySelector('#signupbtn').addEventListener('click', signUpFormHandler);
 
+// storing input from signup-form
+function store() {
+  localStorage.setItem('name', name.value);
+  localStorage.setItem('email', email.value);
+  localStorage.setItem('password', password.value);
+};
+
+  // stored data from the signup-form
+  const storedName = localStorage.getItem('name');
+  const storedEmail = localStorage.getItem('email');
+  const storedPassword = localStorage.getItem('password');
+
+  // check if stored data
+  function check() {
+  if(name.value === storedName && email.value === storedEmail && pw.value === storedPassword ) {
+    
+    const response = await fetch('/api/homeroutes', {
+      
+})
+
+  };
+
+};
+
+
+
+
+
 
 

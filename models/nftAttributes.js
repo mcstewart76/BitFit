@@ -19,6 +19,15 @@ NftAttributes.init(
            type: DataTypes.STRING,
        },
        
+       nft_item_id:{
+        type: DataTypes.INTEGER,
+        references: {
+            model: 'nft_items',
+            key: 'edition',
+            unique: false
+          }
+
+       }
       
 
     },
