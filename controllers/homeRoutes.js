@@ -1,5 +1,5 @@
 const router = require('express').Router();
-const { User } = require('../models');
+const { User, Nftitems, NftAttributes } = require('../models');
 const withAuth = require('../utils/auth');
 
 // Prevent non logged in users from viewing the homepage
@@ -28,9 +28,21 @@ router.get('/signup', (req, res) => {
   res.render('signup');
 });
 
-router.get('/homepage', (req, res) => {
+router.get('/homepage', async (req, res) => {
+  try {
+    var nfts = await Nftitems.findAll();
+    
+     const nftimages = nfts.map((images) =>
+      images.get("image")
+    );
 
-  res.render('homepage');
+  res.render('homepage', {nftimages});
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+  
+
 });
 
 router.get('/about', (req, res) => {
