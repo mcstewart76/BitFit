@@ -1,9 +1,9 @@
 const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection');
 
-class NftAttributes extends Model {}
+class NftitemsAttr extends Model {}
 
-NftAttributes.init(
+NftitemsAttr.init(
     {
        id: {
            type: DataTypes.INTEGER,
@@ -11,24 +11,27 @@ NftAttributes.init(
            primaryKey: true,
            autoIncrement: true,
        },
-       trait_type: {
+       ntf_item_id: {
             type: DataTypes.STRING,
-            allowNull: false,
-       },
-       value: {
-           type: DataTypes.STRING,
+            references: {
+                model: 'nftitems',
+                key: 'id',
+                unique: false
+              }
        },
        
-       nft_item_id:{
-        type: DataTypes.INTEGER,
-        // references: {
-        //     model: 'nftitems',
-        //     key: 'id',
-        //     unique: false
-        //   }
 
-       }
-      
+       nft_attributes_id:{
+        type: DataTypes.INTEGER,
+        references: {
+            model: 'nftAttribute',
+            key: 'id',
+            unique: false
+          }
+        }
+       
+
+
 
     },
 
@@ -37,10 +40,10 @@ NftAttributes.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'nftAttribute',
+        modelName: 'nftitemsattr',
         
       }  
   );
 
-module.exports = NftAttributes;
+module.exports = NftitemsAttr;
        
