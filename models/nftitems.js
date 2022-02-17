@@ -47,18 +47,7 @@ Nftitems.init(
             allowNull: true,
        },
 
-       nft_Attributes_id:{
-        type: DataTypes.INTEGER,
-        references: {
-            model: 'nftAttribute',
-            key: 'id',
-            unique: false
-          }
-        }
-       
-
-
-
+    
     },
 
     {
@@ -66,7 +55,7 @@ Nftitems.init(
         timestamps: false,
         freezeTableName: true,
         underscored: true,
-        modelName: 'nftitems',
+        modelName: 'nft_items',
         
       }  
   );

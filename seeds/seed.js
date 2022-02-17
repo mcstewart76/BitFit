@@ -22,6 +22,10 @@ const seedDatabase = async () => {
 
   for(var i=0; i < nftItems.length; i++){
 
+    for(var j=0; j < nftItems[j].attributes.length; j++){
+      nftItems[i].attributes[j]['nft_item_id']=i+1;
+    }
+
     await NftAttributes.bulkCreate(nftItems[i].attributes, {
       individualHooks: true,
       returning: true,
