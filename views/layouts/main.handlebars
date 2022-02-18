@@ -23,46 +23,46 @@
 </head>
 
 
-    <nav class="navbar bluetext navbar-expand-lg gradient-custom-1">
+    <nav class="navbar bluetext navbar-expand-lg ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">BitFit</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+            <a class="navbar-brand" href="/homepage">BitFit</a>
+            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
                 aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class=" navbar-toggler-icon navbar-toggler "></span>
             </button>
 
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Marketplace
+                        <a class="nav-link active" href="/dashboard">My Dashboard
                             <span class="visually-hidden">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Drops</a>
+                        <a class="nav-link" href="/homepage#dropSection">Drops</a>
                     </li>
-                    <li class="nav-item">
+                    {{!-- <li class="nav-item">
                         <a class="nav-link" href="#">Pricing</a>
-                    </li>
+                    </li> --}}
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="/about">About</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    <li class="nav-item ">
+                        {{!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
                             aria-haspopup="true" aria-expanded="false">Brands</a>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="/homepage">Home</a>
-                            <a class="dropdown-item" href="/dashboard">My NFTs</a>
-                            <a class="dropdown-item" href="/signOut">SignOut</a>
-                        <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="/dashboard">My NFTs</a> --}}
+                            <a class="nav-link" href="/signOut">Sign Out</a>
+                        {{!-- <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="/login">Index</a>
-                        </div>
+                        </div> --}}
                     </li>
                 </ul>
-                <form class="d-flex">
+                {{!-- <form class="d-flex">
                     <input class="form-control me-sm-2" type="text" placeholder="Search">
                     <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form>
+                </form> --}}
             </div>
         </div>
     </nav>
