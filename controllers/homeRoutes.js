@@ -4,7 +4,7 @@ const withAuth = require('../utils/auth');
 
 // Prevent non logged in users from viewing the homepage
 router.get('/', (req, res) => {
-
+  console.log(req.session);
   res.render('login');
 });
 
@@ -16,6 +16,18 @@ router.get('/login', (req, res) => {
   // }
 
   res.render('login');
+});
+
+// Sign out route
+router.get('/signout', (req, res) => {
+  if (req.session.logged_in) {
+    // Remove the session variables
+    req.session.destroy(() => {
+      res.redirect('/login');
+    });
+  } else {
+    res.status(404).end();
+  }
 });
 
 
@@ -52,7 +64,7 @@ router.get('/about', (req, res) => {
 
 router.get('/dashboard',withAuth, (req, res) => {
 
-  res.render('dashboard');
+  res.render('dashboard', {nftimages: "https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"});
 });
 
 router.get('/nft', (req, res) => {
