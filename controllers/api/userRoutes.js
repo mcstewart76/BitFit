@@ -36,16 +36,16 @@ router.post('/login', async (req, res) => {
   }
 });
 
-router.post('/logout', (req, res) => {
-  if (req.session.logged_in) {
-    // Remove the session variables
-    req.session.destroy(() => {
-      res.status(204).end();
-    });
-  } else {
-    res.status(404).end();
-  }
-});
+// router.get('/signout', (req, res) => {
+//   if (req.session.logged_in) {
+//     // Remove the session variables
+//     req.session.destroy(() => {
+//       res.render('login');
+//     });
+//   } else {
+//     res.status(404).end();
+//   }
+// });
 
 
 router.post('/signup', async (req, res) => {

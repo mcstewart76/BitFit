@@ -6,7 +6,12 @@
     <div class=" rounded container text-white  p-4 justify-content-center align-items-center gradient-custom-2 mb-5"
         style="max-width: 1198px; min-width:520px">
         <div class=" vw-50 d-flex flex-wrap justify-content-center ">
-           {{> dashboard-card}} 
+           
+           {{#each nftsData }}
+                            {{> dashboard-card}}
+           {{/each}}
+           
+           
             
         </div>
     </div>

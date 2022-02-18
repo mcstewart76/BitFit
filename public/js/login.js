@@ -48,5 +48,5 @@ const loginFormHandler = async (event) => {
 // };
 
 document.querySelector('#loginbtn').addEventListener('click', loginFormHandler);
-// document.querySelector('#createbtn').addEventListener('click', signUpFormHandler);
-// document.querySelector('#Googlebtn').addEventListener('click', document.location.replace('api/auth/google'));
+document.querySelector('#password-login').addEventListener('keyup', (e) => {
+   if (e.keycode === 13) {loginFormHandler()}});
