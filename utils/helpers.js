@@ -1,14 +1,16 @@
 module.exports = {
-  get_emoji: () => {
-    const randomNum = Math.random();
-    let book = "📗";
+  
+  inc: function (value, options) {
+    return parseInt(value) + 1;
 
-    if (randomNum > 0.7) {
-      book = "📘";
-    } else if (randomNum > 0.4) {
-      book = "📙";
-    }
+}, 
 
-    return `<span for="img" aria-label="book">${book}</span>`;
-  },
+listItem: function (from, to, context, options){
+  var item = "";
+  for (var i = from, j = to; i < j; i++) {
+      item = item + options.fn(context[i]);
+  }
+  return item;
+};
+
 };

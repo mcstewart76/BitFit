@@ -20,6 +20,7 @@ const PORT = process.env.PORT || 3001;
 
 const hbs = exphbs.create({ helpers });
 
+
 // Configure and link a session object with the sequelize store
 const sess = {
   secret: process.env.SESS_SECRET,
