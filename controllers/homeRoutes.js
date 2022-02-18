@@ -64,7 +64,7 @@ router.get('/about', (req, res) => {
 
 router.get('/dashboard',withAuth, (req, res) => {
 
-  res.render('dashboard', {nftimages: "https://i.kym-cdn.com/entries/icons/original/000/013/564/doge.jpg"});
+  res.render('dashboard');
 });
 
 router.get('/nft', (req, res) => {
