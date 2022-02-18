@@ -49,4 +49,5 @@ const loginFormHandler = async (event) => {
 
 document.querySelector('#loginbtn').addEventListener('click', loginFormHandler);
 document.querySelector('#password-login').addEventListener('keyup', (e) => {
-   if (e.keycode === 13) {loginFormHandler()}});
+  console.log(e);
+   if (e.code === 'Enter') {loginFormHandler(e)}});
