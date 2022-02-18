@@ -17,71 +17,54 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
 
-
+    <link rel="icon" type="image/x-icon" href="/views/layouts/BF favicon.ico" />
     <link rel="stylesheet" href="/css/style.css">
     <title>BitFit</title>
 </head>
 
 
-    <nav class="navbar bluetext navbar-expand-lg ">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/dashboard">BitFit</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
-                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class=" navbar-toggler-icon navbar-toggler "></span>
-            </button>
+<nav class="navbar bluetext navbar-expand-lg ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="/homepage">BitFit</a>
+        <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=" navbar-toggler-icon navbar-toggler "></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav me-auto">
-                    {{#if isUserLoggedIn}}
-                    <li class="nav-item">
-                        <a class="nav-link active" href="/dashboard">My Dashboard
-                            <span class="visually-hidden">(current)</span>
-                        </a>
-                    </li>
-                    {{/if}}
-                    <li class="nav-item">
-                        <a class="nav-link" href="/homepage#dropSection">Drops</a>
-                    </li>
-                    {{!-- <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
-                    </li> --}}
-                    <li class="nav-item">
-                        <a class="nav-link" href="/about">About</a>
-                    </li>
-                    {{#if isUserLoggedIn}}
-                    <li class="nav-item ">
-                        {{!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Brands</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="/homepage">Home</a>
-                            <a class="dropdown-item" href="/dashboard">My NFTs</a> --}}
-                            <a class="nav-link" href="/signout">Sign Out</a>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/dashboard">My Dashboard
+                        <span class="visually-hidden">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/homepage#dropSection">Drops</a>
+                </li>
+                {{!-- <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li> --}}
+                <li class="nav-item">
+                    <a class="nav-link" href="/about">About</a>
+                </li>
+                <li class="nav-item ">
+                    {{!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="true" aria-expanded="false">Brands</a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="/homepage">Home</a>
+                        <a class="dropdown-item" href="/dashboard">My NFTs</a> --}}
+                        <a class="nav-link" href="/signOut">Sign Out</a>
                         {{!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/login">Index</a>
-                        </div> --}}
-                    </li>
-                    {{else}}
-                     <li class="nav-item ">
-                        {{!-- <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
-                            aria-haspopup="true" aria-expanded="false">Brands</a>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="/homepage">Home</a>
-                            <a class="dropdown-item" href="/dashboard">My NFTs</a> --}}
-                            <a class="nav-link" href="/login">Sign In</a>
-                        {{!-- <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="/login">Index</a>
-                        </div> --}}
-                    </li>
-                    {{/if}}
-
-                </ul>
-                {{!-- <form class="d-flex">
-                    <input class="form-control me-sm-2" type="text" placeholder="Search">
-                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-                </form> --}}
-            </div>
+                        <a class="dropdown-item" href="/login">Index</a>
+                    </div> --}}
+                </li>
+            </ul>
+            {{!-- <form class="d-flex">
+                <input class="form-control me-sm-2" type="text" placeholder="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form> --}}
         </div>
+    </div>
     </div>
 </nav>
 
