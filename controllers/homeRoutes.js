@@ -50,8 +50,30 @@ router.get('/about', (req, res) => {
   res.render('about');
 });
 
-router.get('/dashboard',withAuth, (req, res) => {
+router.get('/dashboard',withAuth, async(req, res) => {
+  try {
+    
+    var nftsData = await Nftitems.findAll({
+      attributes:['email','edition','']
+    },{
+      where: {
+          id: req.session.user_id
+      }
+    },{
+        
+      include: [{ model: NftAttributes,User}]
+    });
+    
+     const nftimages = await nftsData.map((ntf) =>
+      nft.get("image")
+    );
 
+  res.render('homepage', {nftimages});
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
+  
   res.render('dashboard');
 });
 
