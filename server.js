@@ -9,6 +9,7 @@ const passport = require('passport');
 
 const sequelize = require('./config/connection');
 const { setDefaultResultOrder } = require('dns');
+const res = require('express/lib/response');
 
 // Create a new sequelize store using the express-session package
 const SequelizeStore = require('connect-session-sequelize')(session.Store);
@@ -37,6 +38,10 @@ app.use(passport.session());
 
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
+app.use(function (req, res, next) {
+  res.locals.isUserLoggedIn = req.session.logged_in;
+  next()
+})
 
 
 app.use(express.json());
