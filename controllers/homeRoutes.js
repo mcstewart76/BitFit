@@ -50,7 +50,7 @@ router.get('/about', (req, res) => {
   res.render('about');
 });
 
-router.get('/dashboard', (req, res) => {
+router.get('/dashboard',withAuth, (req, res) => {
 
   res.render('dashboard');
 });
