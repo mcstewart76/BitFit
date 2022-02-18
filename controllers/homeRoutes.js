@@ -31,17 +31,17 @@ router.get('/signup', (req, res) => {
 router.get('/homepage', async (req, res) => {
   try {
     var nfts = await Nftitems.findAll();
-    
-     const nftimages = nfts.map((images) =>
+
+    const nftimages = nfts.map((images) =>
       images.get("image")
     );
 
-  res.render('homepage', {nftimages});
+    res.render('homepage', { nftimages });
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
   }
-  
+
 
 });
 
@@ -50,32 +50,41 @@ router.get('/about', (req, res) => {
   res.render('about');
 });
 
-router.get('/dashboard',withAuth, async(req, res) => {
+router.get('/dashboard', withAuth, async (req, res) => {
   try {
-    
-    var nftsData = await Nftitems.findAll({
-      attributes:['email','edition','']
-    },{
-      where: {
-          id: req.session.user_id
-      }
-    },{
-        
-      include: [{ model: NftAttributes,User}]
-    });
-    
-     const nftimages = await nftsData.map((ntf) =>
-      nft.get("image")
-    );
 
-  res.render('homepage', {nftimages});
+    var nftsData = await Nftitems.findAll(
+
+      {
+        where: {
+          id: req.session.user_id
+        }
+      },
+      {
+
+        include: [{
+          model: User,
+          attributes: ['email', 'name'],
+        }
+        ],
+      });
+
+    if (!nftsData) {
+      res.status(404).json({ message: `No NFT found for ${nftsData.email}` });
+      return;
+    }
+
+    // res.status(200).json(nftsData);
+    res.render('homepage', { nftsData });
   } catch (err) {
-    console.log(err);
     res.status(500).json(err);
   }
-  
-  res.render('dashboard');
 });
+
+
+
+res.render('dashboard');
+
 
 router.get('/nft', (req, res) => {
 
