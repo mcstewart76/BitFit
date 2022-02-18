@@ -2,7 +2,9 @@ body{
   background: #1d1b3d;
   min-width: 520px;
 }
-
+.navbar-toggler-icon  {
+  background: pink !important;
+}
 .btn-xl {
   padding: 10px 20px;
   font-size: 20px;
@@ -130,7 +132,7 @@ padding-bottom: 50px;
 }
 
 #topoftop{
-  background-color: #15132e;
+  background-color: #1d1b3d;
   color: white;
   text-align: center;
   padding-top: 10px;
@@ -197,4 +199,25 @@ transform: translateX(0);
   color: #eee;
   text-shadow: 1px 1px 5px black;
   font-size: 2rem;
+}
+
+#mynfts{
+  color: white;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-style: oblique;
+}
+
+#mynftcards{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#secured{
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  height:200px;
+  background-image: linear-gradient(to right top, #7d071d, #852416, #8b390d, #8d4d04, #8d6000, #935a06, #98540f, #9d4e17, #9b2c32, #86144b, #5e195e, #1a2265);
 }
