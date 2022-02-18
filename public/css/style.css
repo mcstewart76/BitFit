@@ -17,6 +17,9 @@ body{
 .rounded-px{
   border-radius: 50px;
 }
+.rounded-sm-px{
+  border-radius: 20px;
+}
 .gradient-custom-2 {
     /* fallback for old browsers */
     background: #1d1b3d;
@@ -40,6 +43,10 @@ body{
  .nicegrey{
  background: #4c4c55;
  }
+ .ddropscolor{
+  background-image: linear-gradient(to right top, #7d071d, #852416, #8b390d, #8d4d04, #8d6000, #935a06, #98540f, #9d4e17, #9b2c32, #86144b, #5e195e, #1a2265);
+}
+ 
  .minicardcolor{
    background-color: #17a2b8;
    opacity: 0.9;
