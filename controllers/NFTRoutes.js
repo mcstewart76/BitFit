@@ -7,7 +7,9 @@ router.get('/:id', async (req, res) => {
     try {
 
       const nfts = await Nftitems.findByPk(req.params.id, {
-        
+        include: [
+          {model: NftAttributes},
+        ],
       });
   const nftData = nfts.dataValues;
       
