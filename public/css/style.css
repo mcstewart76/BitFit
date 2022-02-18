@@ -2,7 +2,9 @@ body{
   background: #1d1b3d;
   min-width: 520px;
 }
-
+.navbar-toggler-icon  {
+  background: pink !important;
+}
 .btn-xl {
   padding: 10px 20px;
   font-size: 20px;
