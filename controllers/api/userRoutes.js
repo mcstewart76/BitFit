@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const { User } = require('../../models');
 
-router.post('/users/login', async (req, res) => {
+router.post('/login', async (req, res) => {
   try {
     // Find the user who matches the posted e-mail address
     const userData = await User.findOne({ where: { email: req.body.email } });
@@ -48,7 +48,7 @@ router.post('/logout', (req, res) => {
 });
 
 
-router.post('/users/signup', async (req, res) => {
+router.post('/signup', async (req, res) => {
   try {
     const dbUserData = await User.create({
       name: req.body.name,
