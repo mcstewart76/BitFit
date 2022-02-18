@@ -3,10 +3,10 @@
         <div class=" justify-content-center d-flex  p-3">
             <div class=" d-flex flex-column nicegrey rounded-sm-px justify-content-center  p-3 m-3">
                 {{!-- <img class=" w-50 my-2 rounded d-flex mx-auto " src="https://storage.cloud.google.com/bitfit/images/9.png" --}}
-                 <img class=" w-50 my-2 rounded d-flex mx-auto " src={{nftdata.image}}
-                    alt="Card image cap">
-                    <h5 class="text-black justify-content-center d-flex">BitFitted # {{nftdata.edition}}</h5>
-                    <div class=" text-black justify-content-center d-flex  px-3">{{nftdata.name}}</div>
+                 <a href="/nft/{{this.edition}}"> <img class=" w-50 my-2 rounded d-flex mx-auto " src={{this.image}}
+                    alt="Card image cap"> </a>
+                    <h5 class="text-black justify-content-center d-flex">BitFitted # {{this.edition}}</h5>
+                    <div class=" text-black justify-content-center d-flex  px-3">{{this.name}}</div>
             </div>
         </div>
     </div>

@@ -65,28 +65,22 @@ router.get('/about', (req, res) => {
 router.get('/dashboard', withAuth, async (req, res) => {
   try {
 
-    var nftsData = await User.findAll(
+     var nftsRawData = await User.findAll({
+              where: {
+                    id: req.session.user_id,
+                  },
 
-      {
-            where: {
-              id: req.session.user_id
+              include: [{model: Nftitems}],
+              
+
             }
-          },
-          {
-
-                include: [{
-                  model: Nftitems,
-                  
-                }
-                ],
-              }
 
 
     )
-
-
+    var nftsData = nftsRawData[0].dataValues.nft_items.map(function(x) { return {name: x.name, image: x.image, edition: x.edition} }); 
+            
     if (!nftsData) {
-      res.status(404).json({ message: `No NFT found for ${nftsData.email}` });
+      res.status(404).json({ message: `No NFT found for ${nftsRawData[0].dataValues.email}` });
       return;
     }
 
