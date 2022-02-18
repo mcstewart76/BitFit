@@ -4,7 +4,7 @@ const withAuth = require('../utils/auth');
 
 // Prevent non logged in users from viewing the homepage
 router.get('/', (req, res) => {
-
+  console.log(req.session);
   res.render('login');
 });
 
@@ -16,6 +16,18 @@ router.get('/login', (req, res) => {
   // }
 
   res.render('login');
+});
+
+// Sign out route
+router.get('/signout', (req, res) => {
+  if (req.session.logged_in) {
+    // Remove the session variables
+    req.session.destroy(() => {
+      res.redirect('/login');
+    });
+  } else {
+    res.status(404).end();
+  }
 });
 
 
