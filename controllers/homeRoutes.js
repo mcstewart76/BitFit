@@ -1,25 +1,11 @@
 const router = require('express').Router();
-const { User } = require('../models');
+const { User, Nftitems, NftAttributes } = require('../models');
 const withAuth = require('../utils/auth');
 
 // Prevent non logged in users from viewing the homepage
-router.get('/', withAuth, async (req, res) => {
-  try {
-    const userData = await User.findAll({
-      attributes: { exclude: ['password'] },
-      order: [['name', 'ASC']],
-    });
+router.get('/', (req, res) => {
 
-    const users = userData.map((project) => project.get({ plain: true }));
-
-    res.render('homepage', {
-      users,
-      // Pass the logged in flag to the template
-      logged_in: req.session.logged_in,
-    });
-  } catch (err) {
-    res.status(500).json(err);
-  }
+  res.render('login');
 });
 
 router.get('/login', (req, res) => {
@@ -31,15 +17,47 @@ router.get('/login', (req, res) => {
 
   res.render('login');
 });
-router.get('/chris', (req, res) => {
-  
 
-  res.render('homepage');
-});
+
 router.get('/loginpage', (req, res) => {
+  res.render('loginpage');
+});
+
+router.get('/signup', (req, res) => {
+
+  res.render('signup');
+});
+
+router.get('/homepage', async (req, res) => {
+  try {
+    var nfts = await Nftitems.findAll();
+    
+     const nftimages = nfts.map((images) =>
+      images.get("image")
+    );
+
+  res.render('homepage', {nftimages});
+  } catch (err) {
+    console.log(err);
+    res.status(500).json(err);
+  }
   
 
-  res.render('login');
+});
+
+router.get('/about', (req, res) => {
+
+  res.render('about');
+});
+
+router.get('/dashboard', (req, res) => {
+
+  res.render('dashboard');
+});
+
+router.get('/nft', (req, res) => {
+
+  res.render('nft');
 });
 
 module.exports = router;

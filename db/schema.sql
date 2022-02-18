@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS fitbit_db;
-CREATE DATABASE fitbit_db;
+DROP DATABASE IF EXISTS bitfit_db;
+CREATE DATABASE bitfit_db;

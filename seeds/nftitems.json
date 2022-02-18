@@ -1,0 +1,334 @@
+[
+
+    {
+        "name": "GitHomies Deluxe Collection #1",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/1.png",
+        "dna": "d863a4e36696e42a9895392ee4793c9bd26ac0d8",
+        "edition": 1,
+        "date": 1645070771179,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "RippedJeans"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "White"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #2",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/2.png",
+        "dna": "ffc8f437a897e0d3b7455b246066e68b6fae9df8",
+        "edition": 2,
+        "date": 1645070771329,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "RippedJeans"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Orange"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "White"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #3",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/3.png",
+        "dna": "535ed54db132ced000bc3e3baebf5fea2a6b5ade",
+        "edition": 3,
+        "date": 1645070771475,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "RippedJeans"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Orange"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #4",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/4.png",
+        "dna": "2c84b8a0a00c2e66974a3a2e9751643fefeae133",
+        "edition": 4,
+        "date": 1645070771576,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenJoggers"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #5",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/5.png",
+        "dna": "99a3397c4a686af8ff0e3684cec60e7099437701",
+        "edition": 5,
+        "date": 1645070771681,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenCargoPants"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #6",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/6.png",
+        "dna": "bcf15dc1de62431e1f437f8c369c07b4229e9b35",
+        "edition": 6,
+        "date": 1645070771806,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "RippedJeans"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "White"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #7",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/7.png",
+        "dna": "2ebbbe2ee99728604f39a4f65b2029761623dfc3",
+        "edition": 7,
+        "date": 1645070771930,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "RippedJeans"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #8",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/8.png",
+        "dna": "f69ab954799a36e1e02e7e5acf87949a44e4ce5d",
+        "edition": 8,
+        "date": 1645070772047,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenJoggers"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #9",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/9.png",
+        "dna": "d5209eea48590e75d3f0639f532f1b530a31b190",
+        "edition": 9,
+        "date": 1645070772139,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenCargoPants"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #10",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/10.png",
+        "dna": "646f1b0142302acaefd3867679b51b666ce5659d",
+        "edition": 10,
+        "date": 1645070772248,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenCargoPants"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "White"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #11",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/11.png",
+        "dna": "6cd6c04a7e6bfee74c19d64a7b2bd5fe15f1b342",
+        "edition": 11,
+        "date": 1645070772374,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenCargoPants"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Orange"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "White"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #12",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/12.png",
+        "dna": "62e4bb14c5f74848f3315a0d0879f1139d70ffbe",
+        "edition": 12,
+        "date": 1645070772464,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenCargoPants"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "White"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #13",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/13.png",
+        "dna": "d1d79899d19a2b15a074de9c9cf68df5101026ee",
+        "edition": 13,
+        "date": 1645070772591,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenCargoPants"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Orange"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #14",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/14.png",
+        "dna": "9346855913a9d964fe97542e71335fce5b37e3e9",
+        "edition": 14,
+        "date": 1645070772708,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "GreenJoggers"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Blue"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "White"
+            }
+        ]
+    },
+    {
+        "name": "GitHomies Deluxe Collection #15",
+        "description": "Unique, algorithmically generated BitFitted character chillin' on the blockchain. ",
+        "image": "https://storage.cloud.google.com/bitfit/images/15.png",
+        "dna": "80a6eda2e8cc3d9154691b2bae85025b8f33084c",
+        "edition": 15,
+        "date": 1645070772821,
+        "attributes": [
+            {
+                "trait_type": "Pants",
+                "value": "RippedJeans"
+            },
+            {
+                "trait_type": "Hoodies",
+                "value": "Grey"
+            },
+            {
+                "trait_type": "Shoes",
+                "value": "Blue"
+            }
+        ]
+    }
+
+]
