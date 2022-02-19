@@ -15,9 +15,12 @@ router.get('/:id', async (req, res) => {
           {model: NftAttributes},
         ],
       });
-  const nftData = nfts.dataValues;
-      
-      res.render('nft', {nftData})
+  var nftData = nfts.dataValues;
+      var nftAt = nftData.nftAttributes;
+      var pants = nftAt[0].dataValues; 
+      var hoodie = nftAt[1].dataValues;
+      var shoes = nftAt[2].dataValues;
+      res.render('nft', {nftData, nftAt, pants, hoodie, shoes })
       //res.status(200).json(NftData);
     }
      catch (err) {
