@@ -27,7 +27,8 @@ install express, express session, express-handlebars, MySQL2, sequelize, passpor
 Just follow the URL link
 
 ## Tests
-N/A
+npx hardhat test
+npx hardhat verify --network <blockchain network> <Wallet Key> "Argument 1" "Argument 2
 
 ## License
     This project is licensed under the MIT license.
