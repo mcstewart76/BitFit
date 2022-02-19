@@ -24,6 +24,10 @@ const signUpFormHandler = async (event) => {
 };
 
 document.querySelector('#signupbtn').addEventListener('click', signUpFormHandler);
+document.querySelector('#password-signup').addEventListener('keyup', (e) => {
+  console.log(e);
+   if (e.code === 'Enter') {signUpFormHandler(e)}});
+
 
 // storing input from signup-form
 function store() {
@@ -41,7 +45,7 @@ function store() {
   function check() {
   if(name.value === storedName && email.value === storedEmail && pw.value === storedPassword ) {
     
-    const response = await fetch('/api/homeroutes', {
+    const response = fetch('/api/homeroutes', {
       
 })
 
