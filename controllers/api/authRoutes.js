@@ -13,6 +13,7 @@ router.get('/google', passport.authenticate('google',{scope:['profile']}))
 // router.get('/google', passport.authenticate('google'))
 
 
+
 router.get('/google/callback', async (req, res) => {
   try {
     await passport.authenticate('google',{

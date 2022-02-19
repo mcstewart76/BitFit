@@ -24,6 +24,10 @@ const signUpFormHandler = async (event) => {
 };
 
 document.querySelector('#signupbtn').addEventListener('click', signUpFormHandler);
+document.querySelector('#password-signup').addEventListener('keyup', (e) => {
+  console.log(e);
+   if (e.code === 'Enter') {signUpFormHandler(e)}});
+
 
 // storing input from signup-form
 function store() {
