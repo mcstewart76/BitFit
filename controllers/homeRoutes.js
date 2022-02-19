@@ -43,12 +43,17 @@ router.get('/signup', (req, res) => {
 router.get('/homepage', async (req, res) => {
   try {
     var nfts = await Nftitems.findAll();
-
-    const nftimages = nfts.map((images) =>
-      images.get("image")
+    
+     const nftimages = nfts.map((data) =>
+      data.get('image' )
+      
+    );
+    const editionNum = nfts.map((data) =>
+      data.get('edition' )
+      
     );
 
-    res.render('homepage', { nftimages });
+  res.render('homepage', {nftimages, editionNum});
   } catch (err) {
     console.log(err);
     res.status(500).json(err);

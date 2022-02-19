@@ -1,6 +1,10 @@
 body{
   background: #1d1b3d;
   min-width: 520px;
+  padding-bottom: 120px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .navbar-toggler-icon  {
   background: pink !important;
@@ -204,7 +208,6 @@ transform: translateX(0);
 #infinitecountdown {
   text-align: center;
   color: #eee;
-  text-shadow: 1px 1px 5px black;
   font-size: 2rem;
 }
 
@@ -227,4 +230,67 @@ transform: translateX(0);
   padding-top: 50px;
   height:200px;
   background-image: linear-gradient(to right top, #7d071d, #852416, #8b390d, #8d4d04, #8d6000, #935a06, #98540f, #9d4e17, #9b2c32, #86144b, #5e195e, #1a2265);
+}
+
+.footer-basic {
+  padding:20px 0;
+  background-color:#9a3ce0;
+  color:#224ab2;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width:100%;
+}
+
+.footer-basic ul {
+  padding:0;
+  list-style:none;
+  text-align:center;
+  font-size:18px;
+  line-height:1.6;
+  margin-bottom:0;
+}
+
+.footer-basic li {
+  padding:0 10px;
+}
+
+.footer-basic ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-basic ul a:hover {
+  opacity:1;
+}
+
+.footer-basic .social {
+  text-align:center;
+  padding-bottom:25px;
+}
+
+.footer-basic .social > a {
+  font-size:24px;
+  width:40px;
+  height:40px;
+  line-height:40px;
+  display:inline-block;
+  text-align:center;
+  margin:0 8px;
+  color:inherit;
+  opacity:0.75;
+}
+
+.footer-basic .copyright {
+  margin-top:15px;
+  text-align:center;
+  font-size:13px;
+  color:#aaa;
+  margin-bottom:0;
+}
+
+#githomies{
+  text-align: center;
 }
