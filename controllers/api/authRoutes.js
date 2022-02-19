@@ -8,25 +8,30 @@ const { User } = require('../../models');
 
 
 
-router.get('/google', passport.authenticate('google',{scope:['profile']}))
+router.get('/google', passport.authenticate('google', { scope: ['profile'] }))
 
 // router.get('/google', passport.authenticate('google'))
 
+var Glogin = () => {
 
+  req.session.save(() => {
+    req.session.user_id = userData.id;
+    req.session.logged_in = true;
+    res.render('dashboard');
+    
+  });
+
+}
 
 
 router.get('/google/callback', async (req, res) => {
   try {
-    await passport.authenticate('google',{
-      successRedirect: req.session.save(() => {
-        req.session.user_id = userData.id;
-        req.session.logged_in = true;
-        res.render('dashboard'),
-    }),
+    await passport.authenticate('google', {
+      successRedirect: Glogin,
       failureRedirect: '/failure',
 
     })
-    
+
   } catch (err) {
     console.log(err);
     res.status(500).json(err);
