@@ -7,31 +7,18 @@ const loginFormHandler = async (event) => {
   const password = document.querySelector('#password-login').value.trim();
   var raw = JSON.stringify({ email, password })
   if (email && password) {
-
-    var myHeaders = new Headers();
-    myHeaders.append("Content-Type", "application/json");
-        
-    var raw = JSON.stringify({
-      "email": email,
-      "password": password
-    });
-    
-    var requestOptions = {
+    // Send the e-mail and password to the server
+    const response = await fetch('/api/users/login', {
       method: 'POST',
-      headers: myHeaders,
-      body: raw,
-      redirect: 'follow'
-    };
-    
-    fetch("/api/users/login", requestOptions)
-      .then(response => await alert(response.text()))
-      .then(result => await alert(result))
-      .catch(error => await alert('error', error));
+      body: JSON.stringify({ email, password }),
+      headers: { 'Content-Type': 'application/json' },
+    });
 
-
-
-
-  
+    if (response.ok) {
+      document.location.replace('/dashboard');
+    } else {
+      alert('Failed to log in');
+    }
   }
 };
 

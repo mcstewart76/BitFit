@@ -1,10 +1,7 @@
 body{
   background: #1d1b3d;
   min-width: 520px;
-  padding-bottom: 120px;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  
 }
 .navbar-toggler-icon  {
   background: pink !important;

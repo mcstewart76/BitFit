@@ -16,7 +16,7 @@ items.forEach((el) => {
 
  setInterval(function time(){
     var d = new Date();
-    var hours = 24 - d.getHours();
+    var hours = 23 - d.getHours();
     var min = 60 - d.getMinutes();
     if((min + '').length == 1){
       min = '0' + min;
