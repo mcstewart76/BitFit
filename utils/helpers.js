@@ -11,6 +11,6 @@ listItem: function (from, to, context, options){
       item = item + options.fn(context[i]);
   }
   return item;
-};
+}
 
 };
