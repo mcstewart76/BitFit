@@ -41,7 +41,7 @@ function store() {
   function check() {
   if(name.value === storedName && email.value === storedEmail && pw.value === storedPassword ) {
     
-    const response = await fetch('/api/homeroutes', {
+    const response =  fetch('/api/homeroutes', {
       
 })
 
