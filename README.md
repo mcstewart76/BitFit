@@ -35,6 +35,9 @@ npx hardhat verify --network <blockchain network> <Wallet Key> "Argument 1" "Arg
     
 ![Deployed BitFit App](https://bitfitted.herokuapp.com/)
 
+![image](https://user-images.githubusercontent.com/90533949/160325216-b959890f-259f-4bfb-8245-79bba2533b6d.png)
+![image](https://user-images.githubusercontent.com/90533949/160325265-3b9c05f7-bd4a-4323-86a2-f043b12c755c.png)
+![image](https://user-images.githubusercontent.com/90533949/160325316-5301d0d9-085a-4f62-a997-83e1798684dd.png)
 
 
 
